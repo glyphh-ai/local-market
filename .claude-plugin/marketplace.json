@@ -1,0 +1,34 @@
+{
+  "name": "glyphh",
+  "description": "Glyphh mods for Claude",
+  "owner": {
+    "name": "Glyphh AI",
+    "url": "https://glyphh.ai"
+  },
+  "plugins": [
+    {
+      "name": "ada",
+      "source": "./plugins/ada",
+      "description": "Ada: typed models that remember your precedents, in your own Glyphh runtime. The skill that builds a model with you, deploys it by commit and calls it on your runtime's connector. An add-on on the Glyphh account.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "drips",
+      "source": "./plugins/drips",
+      "description": "Drips: visual effects with sound over Claude (confetti, fireworks, hearts, a matrix rain), over Claude's window or the whole screen; save your own recipes and let Claude play them. A one-time $8 per machine.",
+      "version": "2.0.0"
+    },
+    {
+      "name": "games",
+      "source": "./plugins/games",
+      "description": "Games: games with sound over Claude (Missile Command, Chickn, Blocks, Rocks, Dash), endless and harder as they go, your top score to beat. A one-time $8 per machine.",
+      "version": "1.0.0"
+    },
+    {
+      "name": "glyphh",
+      "source": "./plugins/glyphh",
+      "description": "Glyphh for Claude: your account and the sign-in card",
+      "version": "0.1.0"
+    }
+  ]
+}

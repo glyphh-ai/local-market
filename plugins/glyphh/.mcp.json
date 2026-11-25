@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "glyphh": {
+      "command": "node",
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/mcp/dist/server.mjs"
+      ],
+      "env": {
+        "GLYPHH_SERVER_URL": "https://api.glyphh.ai"
+      }
+    }
+  }
+}
